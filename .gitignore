@@ -1,0 +1,25 @@
+# Rust
+/target
+**/target
+
+# Frontend / Trunk (Yew)
+dist
+**/dist
+.trunk
+apps/web-ui/output.css
+apps/web-ui/tailwindcss
+
+# IDE
+/.idea
+/.vscode
+
+# OS
+/.DS_Store
+
+# Logs
+*.log
+
+# Local env
+.env
+.env.*
+!.env.example

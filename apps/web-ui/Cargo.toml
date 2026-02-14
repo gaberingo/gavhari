@@ -1,0 +1,10 @@
+[package]
+name = "web-ui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+shared = { path = "../../crates/shared" }
+yew = { version = "0.22", features = ['csr']}
